@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <ImageView
+      android:id="@+id/teacherImg"
+      android:layout_width="101dp"
+      android:layout_height="113dp"
+      tools:src="@tools:sample/avatars" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="113dp"
+      android:orientation="vertical"
+      android:padding="20dp">
+
+    <TextView
+        android:id="@+id/teacherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Name" />
+  </LinearLayout>
+  <View
+      android:layout_width="fill_parent"
+      android:layout_height="1dip"
+      android:background="#FF0000FF"
+      />
+</LinearLayout>
